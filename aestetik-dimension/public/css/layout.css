@@ -1,0 +1,170 @@
+/* Background */
+
+video
+{
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* header */
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin: 35px 0px;
+}
+
+.navbar ul li
+{
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.navbar ul li a:hover
+{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+input[type="search"] {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    border-radius: 2em;
+    height: 20px;
+    color: gray;
+}
+
+.search:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.login {
+    font-family: 'Zen Kurenaido', sans-serif;
+    position: absolute;
+    margin-top: -1.5%;
+    top: 0;
+    right: 1%;
+    color: white;
+
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 53px;
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.login a:hover
+{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.name {
+    font-family: 'Zen Kurenaido', sans-serif;
+    position: absolute;
+    margin-top: 0.35%;
+    top: 18%;
+    left: 5%;
+    color: white;
+}
+
+.logo {
+    margin-top: 2%;
+}
+
+footer {
+    min-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.size {
+	width: 40px;
+	height: 40px;
+}
+
+.logo {
+    width: 35px;
+	height: 35px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.navend
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0,0.5);
+    bottom: 0;
+    z-index: 4;
+}
+
+.navend ul
+{
+    display: flex;
+    list-style: none;
+    margin: 35px 0px;
+}
+
+.copy
+{
+
+    font-family: 'Zen Kurenaido', sans-serif;
+    color:white;
+
+}

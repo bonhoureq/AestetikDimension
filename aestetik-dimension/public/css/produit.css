@@ -1,0 +1,38 @@
+body{
+	background-color: rgb(122, 116, 116);
+}
+
+.category {
+    font-family: 'Zen Kurenaido', sans-serif;
+    position: absolute;
+    top : 5px;
+    left: 25px;
+    color: white;
+}
+
+.frame{
+    margin-top: 2%;
+    margin-left : 9em;
+    margin-right : 9em;
+    border-radius: 5px;
+    margin-bottom: 3%;
+
+    padding: 55px;
+    max-height : 23.5em;
+
+
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    background-color: rgb(214, 200, 200);
+}
+
+.image {
+    border-radius: 5px;
+	float: left;
+    margin: auto;
+    width: 37%;
+}
+
+.paragraph {
+  margin : 0% 10% 20% 40%
+}
